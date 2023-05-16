@@ -1,29 +1,82 @@
 #bola{
-width: 30px;
-height: 30px;
-background: white;
-position: absolute;
-border-radius: 20px;
-}
-
-#barra{
-    width: 10px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     background: white;
     position: absolute;
-}
+    border-radius: 20px;
+    display: none;
+    }
+    
+    #barra{
+        width: 10px;
+        height: 100px;
+        background: white;
+        position: absolute;
+        display: none;
+    }
+    
+    #contador{
+        height: 40px;
+        width: 100px;
+        border: 2px solid white;
+        position: absolute;
+        color: white;
+        right: 0px;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-#contador{
-    height: 40px;
-    width: 100px;
-    border: 2px solid white;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-}
+    #perder{
+        display: none;
+        position: absolute;
+        right: 50%;
+        bottom: 50%;
+        width: 300px;
+        height: 300px;
+        border: 2px solid white;
+        color: white;
+    }
+    #instrucciones{
+        display: none;
+        position: absolute;
+        right: 50%;
+        bottom: 50%;
+        width: 300px;
+        height: 300px;
+        font-size: 3ch;
+        border: 2px solid white;
+        color: blue;
+    }
+    body, html{
+        height: 100%;
+    background-color: black;
+    }
+    #inicio{
+        position: absolute;
+        right: 50%;
+        bottom: 50%;
+       
+    }
+    #inicio input{
+        height: 50px;
+        width: 200px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
-body, html{
-    height: 100%;
-background-color: black;
-}
+    #titulo{
+        position: absolute;
+        right: 47%;
+
+        height: 200px;
+        width: 300px; 
+        font-size: 20ch;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
